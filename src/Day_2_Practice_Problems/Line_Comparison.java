@@ -1,4 +1,4 @@
-package Day_2_Practice_Problems;
+package Line_Comparison;
 import java.util.Scanner;
 
 public class Line_Comparison {

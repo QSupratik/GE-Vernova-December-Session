@@ -1,4 +1,4 @@
-package Day_2_Practice_Problems;
+package Line_Comparison;
 
 public class Line{
     Point p1, p2;
