@@ -14,7 +14,19 @@ public class Line_Comparison {
         System.out.println("The Length is " + lenL2);
         l2.calculateLength();
 
-        //
+        //Checking equality of two lines
+        l1.checkEqual(l1, l2);
+
+        //Comparign Lengths
+        if(lenL1>lenL2){
+            System.out.println("Line1 is greater than Line2");
+        }
+        else if(lenL1<lenL2){
+            System.out.println("Line1 is smaller than Line2");
+        }
+        else {
+            System.out.println("Both the lines are equal");
+        }
     }
 
     public static Point getPoint(){
